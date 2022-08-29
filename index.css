@@ -89,6 +89,7 @@ h1{
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+    align-items: center;
 }
 
 .container-parrafo2{
@@ -130,9 +131,10 @@ h1{
 
 .aprende-mas{
     border: none;
-    background-color: #33211D;
+    background-color: #E7B269;
     padding: 1rem;
     color: #FFFBF2;
+    font-size: 1rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -318,7 +320,7 @@ button{
 }
 
 .cafe-caliente-frio{
-    color: #33211D;
+    color: #E7B269;
     text-align: left;
     margin-left: 5rem;
     margin-bottom: 2.5rem;
