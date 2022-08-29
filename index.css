@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* HEADER */
+
+.header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.fondo-header{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* NAVEGADOR */
+
+nav{
+    position: absolute;
+    background: transparent;
+    color: #ffff;
+    width: 90%;
+}
+
+ul{
+    display: flex;
+    justify-content:end;
+    gap: 4rem;
+    margin-top: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+
+/* TITULO */
+
+
+h1{
+    text-align: center;
+    margin-top: 25%;
+    position: absolute;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10rem;
+    letter-spacing: 1rem;
+}
+
+
+/* SOBRE NOSOTROS */
+
+.sobre-nosotros-container{
+    height: 100vh;
+    width: 100%;
+    background: #FFFBF2;
+    padding-top: 10rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.sobre-nosotros-container::after{
+        background: url("roto.png");
+        bottom: -1px;
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 15px;
+        left: 0;
+        z-index: 1;
+    }
+    
+
+
+.container-parrafo1 , .container-parrafo2{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.container-parrafo2{
+    width: 25%;
+}
+
+.container-parrafo1{
+    width: 25%;
+}
+
+.sobre-nosotros-p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    color: #E7B269;
+}
+
+.desde-1960-p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    color: #33211D;
+}
+
+.sobre-nosotros-imagen{
+    display: flex;
+    align-items:center;
+}
+
+
+
+.sobre-nosotros-h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    color: #33211D;
+}
+
+.parrafo1,.parrafo2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.aprende-mas{
+    border: none;
+    background-color: #33211D;
+    padding: 1rem;
+    color: #FFFBF2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.historia{
+    background-color: #E7B269;
+}
+
+
+/* NUESTROS SERVICIOS */
+
+.nuestros-servicios-container{
+    height: 100vh;
+    width: 100%;
+    background: #FFFBF2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.nuestros-productos-p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    color: #E7B269;
+    margin-bottom: -5rem;    
+}
+
+
+.granos-frescos-p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    color: #33211D;
+}
+
+.container-servicios{
+    display: flex;
+    flex-direction: row;
+    column-gap:10px
+}
+
+.servicio{
+
+    height: 200px;
+    width: 300px;
+}
+
+.granos{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.span-servicios{
+    width: 200px;
+    margin: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #33211D;
+}
+
+.span-p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 4px;
+}
+
+
+/* CUPON DE DESCUENTO */
+
+.container-cupon{
+    height: 50vh;
+    display: flex;
+}
+
+.descuento-p{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.fondo-cupon{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo-descuento{
+    margin-top: 1rem;
+    color:#E7B269;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+}
+
+.titulo-descuento2{
+    color:#ffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+}
+
+.titulo-descuento3{
+    color:#ffff;
+    font-family: "Cambria", Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+
+.email{
+
+    border: none;
+    height: 3rem;
+    width: 20rem;
+}
+
+form{display: flex;}
+
+button{
+    border: none;
+    height: 3rem;
+    width: 10rem;
+    margin: 0;
+    background-color: #E7B269;
+}
+
+
+
+/* MENU Y PRECIOS */
+
+.menu-container{
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #FFFBF2;
+}
+
+.tipos-de-cafe{
+    display: flex;
+    gap: 10rem;
+}
+
+.menu-precios-p{
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #E7B269;
+    margin-top: 5rem;
+}
+
+.precios-competitivos-p{
+    font-size: 5rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #33211D;
+
+}
+
+.cafe-cal{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    color: #33211D;
+    font-size: 1rem;
+    justify-content:left;
+}
+
+.cafe-cal span {
+    font-size: 2rem;
+}
+
+.cafe-cal span p{
+    font-size: 1.3rem;
+    color: #33211D;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img-cafe{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.cafe-caliente-cont{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}
+
+.cafe-caliente-frio{
+    color: #33211D;
+    text-align: left;
+    margin-left: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.cont-imagen-cafe{
+    margin: 1rem;
+    height: 100px;
+    width: 100px;
+}
+
+
+
