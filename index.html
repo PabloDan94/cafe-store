@@ -8,21 +8,21 @@
     <title>Tienda</title>
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <h1>CAFE STORE</h1>
-      <nav>
-        <ul class="lista">
-          <li class="item-lista">INICIO</li>
-          <li class="item-lista">NOSOTROS</li>
-          <li class="item-lista">SERVICIOS</li>
-          <li class="item-lista">MENU</li>
-          <li class="item-lista">CONTACTO</li>
+      <nav id="nav" class="nav">
+        <button  id="to-top" class="to-top none">⇪</button>
+        <ul id="ul"  class="lista none">
+          <li class="item-lista"><a id="item" class="item" href="#header">INICIO</a></li>
+          <li class="item-lista"><a href="#nosotros">NOSOTROS</a></li>
+          <li class="item-lista"><a href="#servicios">SERVICIOS</a></li>
+          <li class="item-lista"><a href="#menu">MENU</a></li>
+          <li class="item-lista"><a href="#footer">CONTACTO</a></li>
         </ul>
-      </nav>
-
-      <img class="fondo-header" src="header-fondo.jpg" alt="fondo" />
+        <button class="toggle-button"id="toggle"><ion-icon name="menu-outline"></ion-icon></button>
+      </nav>      
     </header>
-    <section class="sobre-nosotros-container">
+    <section id="nosotros" class="sobre-nosotros-container">
       <p class="sobre-nosotros-p">SOBRE NOSOTROS</p>
       <p class="desde-1960-p">SIRVIENDO DESDE 1960</p>
       <div class="sobre-nosotros-imagen">
@@ -36,7 +36,7 @@
           </p>
           <button class="aprende-mas historia">APRENDE MAS</button>
         </div>
-        <img src="cafe.png" alt="cafe" />
+        <img src="cafe.png" class="cafe-img" alt="cafe" />
         <div class="container-parrafo2">
           <h2 class="sobre-nosotros-h2">NUESTRA VISION</h2>
           <p class="parrafo2">
@@ -49,7 +49,7 @@
         </div>
       </div>
     </section>
-    <section class="nuestros-servicios-container">
+    <section class="servicios-cont" id="servicios" class="nuestros-servicios-container">
       <p class="nuestros-productos-p">NUESTROS PRODUCTOS</p>
       <p class="granos-frescos-p">GRANOS FRESCOS Y ORGANICOS</p>
       <div class="container-servicios">
@@ -74,73 +74,174 @@
       </div>
     </section>
     <section class="container-cupon">
-        <img class="fondo-cupon"src="fondo-cupon.jpg" alt="fondo">
-        <div class="descuento-p">
-            <p class="titulo-descuento">50% DE DESCUENTO</p>
-            <p class="titulo-descuento2">OFERTA ESPECIAL DOMINGO</p>
-            <p class="titulo-descuento3">SOLO VALIDO HASTA EL DOMINGO 5 DE DICIEMBRE DE 2022</p>
+      <div class="descuento-p">
+        <p class="titulo-descuento">50% DE DESCUENTO</p>
+        <p class="titulo-descuento2">OFERTA ESPECIAL DOMINGO</p>
+        <p class="titulo-descuento3">SOLO VALIDO HASTA EL DOMINGO 5 DE DICIEMBRE DE 2022</p>
             <form>
-                <input class="email"type="email" type="reset" placeholder="TU CORREO ELECTRONICO" id="email">
-                <button type="submit">INSCRIBIRSE</button>
+              <input class="email"type="email" type="reset" placeholder="TU CORREO ELECTRONICO" id="email">
+              <button class="email-button" type="submit">INSCRIBIRSE</button>
             </form>
         </div>
-            
-    </section>
-    <section class="menu-container">
+      </section>
+      <section id="menu" class="menu-container">
         <p class="menu-precios-p">MENU Y PRECIOS</p>
         <p class="precios-competitivos-p">PRECIOS COMPETITIVOS</p>
         
         <div class="tipos-de-cafe">
-
-            
-            <div class="cafe-caliente-cont">
-                <p class="cafe-caliente-frio">CAFE CALIENTE</p>
-                <div class="cafe-cal">
+          
+          
+          <div class="cafe-caliente-cont">
+            <p class="cafe-caliente-frio">CAFE CALIENTE</p>
+            <div class="cafe-cal">
                     <div class="cont-imagen-cafe">
                         <img class="img-cafe" src="cafe-caliente1.jpg" alt="cafe">
                     </div>
                     <span>CAFE NEGRO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
                 </div >
                 <div class="cafe-cal">
-                    <div class="cont-imagen-cafe">
-                        <img class="img-cafe"src="cafe-caliente2.jpg" alt="cafe">
+                  <div class="cont-imagen-cafe">
+                    <img class="img-cafe"src="cafe-caliente2.jpg" alt="cafe">
                     </div>
                     <span>CAFE NEGRO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
-                </div>
+                  </div>
                 <div class="cafe-cal">
                     <div class="cont-imagen-cafe">
-                        <img class="img-cafe"src="cafe-caliente3.jpg" alt="cafe">
+                      <img class="img-cafe"src="cafe-caliente3.jpg" alt="cafe">
+                    </div>
+                    <span>CAFE NEGRO <p class="p-cafe-negro">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
+                  </div>
+                </div>
+                
+                
+                
+                <div class="cafe-caliente-cont">
+                  <p class="cafe-caliente-frio">CAFE FRIO</p>
+                  <div class="cafe-cal">
+                    <div class="cont-imagen-cafe">
+                      <img class="img-cafe" src="cafe-caliente1.jpg" alt="cafe">
                     </div>
                     <span>CAFE NEGRO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
+                  </div >
+                  <div class="cafe-cal">
+                    <div class="cont-imagen-cafe">
+                      <img class="img-cafe"src="cafe-caliente2.jpg" alt="cafe">
+                    </div>
+                    <span>CAFE NEGRO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
+                  </div>
+                  <div class="cafe-cal">
+                    <div class="cont-imagen-cafe">
+                      <img class="img-cafe"src="cafe-caliente3.jpg" alt="cafe">
+                    </div>
+                    <span>CAFE NEGRO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
+                  </div>
+                  
                 </div>
-        </div>
-        
-        
-        
-        <div class="cafe-caliente-cont">
-            <p class="cafe-caliente-frio">CAFE FRIO</p>
-            <div class="cafe-cal">
-                <div class="cont-imagen-cafe">
-                    <img class="img-cafe" src="cafe-caliente1.jpg" alt="cafe">
-                </div>
-                <span>CAFE NEGRO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
-            </div >
-            <div class="cafe-cal">
-                <div class="cont-imagen-cafe">
-                    <img class="img-cafe"src="cafe-caliente2.jpg" alt="cafe">
-                </div>
-                <span>CAFE NEGRO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
-            </div>
-            <div class="cafe-cal">
-                <div class="cont-imagen-cafe">
-                    <img class="img-cafe"src="cafe-caliente3.jpg" alt="cafe">
-                </div>
-                <span>CAFE NEGRO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
-            </div>
-        </div>
+                
+              </section> 
+<section class="reservacion">
+      <div class="reservacion-cont">
+          <p>30% OFF</p>
+          <p>PARA RESERVAS ONLINE</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas dolores cum, officiis deleniti hic nisi ipsam totam harum est repudiandae eos accusamus</p>
+          <p><span class="tilde">✓</span>Lorem ipsum dolor sit amet</p>
+          <p><span class="tilde">✓</span>Lorem ipsum dolor sit amet</p>
+          <p><span class="tilde">✓</span>Lorem ipsum dolor sit amet</p>
+      </div>
+      <form class="form" action="#">
+        <p>ARMA TU MESA</p>
+        <input type="text" placeholder="NOMBRE" name="name">
+        <input type="email" placeholder="EMAIL">
+        <input type="date" name="date">
+        <input type="time" name="time">
+        <select name="personas">
+          <option value="1 persona">1 PERSONA</option>
+          <option value="2 personas">2 PERSONAS</option>
+          <option value="3 personas">3 PERSONAS</option>
+          <option value="4 personas">4 PERSONAS</option>
+        </select>  
+        <button class="reservar-button">RESERVAR</button>
+      </form>
+      
     </section>
+
     
-</div>
+    
+    <section class="testimonios-cont">
+      <p class="testimonios-p">TESTIMONIOS</p>
+      <p class="nuestrosclientes-p">NUESTROS CLIENTES OPINAN</p>
+      <div class="clientes-cont">
+        <div class="cliente">
+          <div class="img-cliente-cont">
+            <img class="img-cliente" src="/cliente1.jpg" alt="cliente">
+          </div>
+          <p class="descripcion-cliente">Nombre cliente <span>Profesion</span><span>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span></p>
+            
+          </div>
+          <div class="cliente">
+            <div class="img-cliente-cont">
+              <img class="img-cliente" src="/cliente2.jpg" alt="cliente">
+            </div>
+            <p class="descripcion-cliente">Nombre cliente <span>Profesion</span><span>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span></p>
+            </div>
+            <div class="cliente">
+              <div class="img-cliente-cont">
+                <img class="img-cliente" src="/cliente3.webp" alt="cliente">
+              </div>
+              <p class="descripcion-cliente">Nombre cliente <span>Profesion</span><span>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span></p>
+              </div>
+            </div>
+          </section>
+     
+  
+          <footer id="footer" class="footer-cont">
+
+            <div class="cont-waves">
+        <img class="aber" src="/overlay.png" alt="roto">
+
+      </div>
+      
+      <div class="donde-encontrarnos">
+        <p>VISITANOS!</p>
+        <div>
+          <ion-icon name="location-outline"></ion-icon>
+          <p class="visitanos-text">CALLE 123, ITUZAINGO</p>
+        </div>
+        <div>
+          <ion-icon name="call-outline"></ion-icon>
+          <p class="visitanos-text">1123593944</p>
+        </div>
+        <div>
+          <ion-icon name="mail-outline"></ion-icon>
+
+          <p class="visitanos-text">
+            pablodan.dev@gmail.com</p>
+          </div>
+      </div>
+      <div class="redes">
+        <p>SEGUINOS!</p>
+        <p class="visitanos-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+        <div class="links">
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+          <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href=""><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
+        </div>
+      </div>
+      <div class="horarios">
+        <p class="visitanos-text">NUESTROS HORARIOS!</p>
+        <p class="visitanos-text">LUNES A VIERNES <span>8.00AM - 8.00PM</span></p>
+        <p class="visitanos-text">SABADO Y DOMINGO <span>2.00PM - 8.00PM</span></p>
+      </div>
+
+      
+    </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
