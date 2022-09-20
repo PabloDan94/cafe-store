@@ -225,7 +225,7 @@ h1{
     }
     
     .granos-frescos-p{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: 'Koulen', cursive;
         font-size: 3.5rem;
         color: #33211D;
     }
@@ -260,7 +260,7 @@ h1{
     .span-servicios{
         width: 200px;
         margin: 25px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: 'Koulen', cursive;
         color: #33211D;
     }
 
@@ -286,8 +286,8 @@ h1{
     .descuento-p{
         gap: 1rem;
         color: #FFFBF2;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+        font-family: 'Koulen', cursive;
+    }
 
     .titulo-descuento{
         font-size: 4rem;
@@ -334,13 +334,13 @@ h1{
     }
     .menu-precios-p{
         font-size: 2rem;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: 'Koulen', cursive;
         color: #E7B269;
     }
     
     .precios-competitivos-p{
         font-size: 3.5rem;
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: 'Koulen', cursive;
         color: #33211D;
     
     }
@@ -381,7 +381,7 @@ h1{
         }
         
         .cafe-caliente-cont{
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-family: 'Koulen', cursive;
             font-size: 3rem;
         }
         
@@ -435,7 +435,7 @@ h1{
 }
 
 .form > p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Koulen', cursive;
     color: #FFFBF2;
     font-size: 2rem;
 
@@ -463,21 +463,21 @@ select {
     margin: auto;
     margin-top: 4px;
     margin-bottom: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Koulen', cursive;
     font-size: 1.2rem;
     color: #33211D;
 
 }
 
 .reservacion-cont > p:nth-child(1){
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Koulen', cursive;
     color: #FFFBF2;
     font-size: 4rem;
     margin-top: 10px;
 }
 
 .reservacion-cont > p:nth-child(2){
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Koulen', cursive;
     color: #E7B269;
     font-size: 2rem;
 }
@@ -514,12 +514,12 @@ select {
 
 .testimonios-p{
     font-size: 2rem;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Koulen', cursive;
     color: #33211D;
 }
 
 .nuestrosclientes-p{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Koulen', cursive;
     font-size: 4rem;
     color: #E7B269;
     
@@ -558,7 +558,7 @@ select {
 
 .descripcion-cliente{
     color: #33211D;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow ';
+    font-family: 'Koulen', cursive;
     padding: 10px;
 }
 
@@ -648,7 +648,7 @@ ion-icon{
 .horarios > p:nth-child(1){
     color: #E7B269;
     font-size: 3rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Koulen', cursive;
 }
 
 .cont-waves{
