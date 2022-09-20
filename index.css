@@ -70,7 +70,7 @@ ul{
     display: flex;
     justify-content:end;
     gap: 4rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Koulen', cursive;
     font-size: 3rem;
 }
 
@@ -118,7 +118,7 @@ h1{
     text-align: center;
     margin-top: 25%;
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Koulen', cursive;
     letter-spacing: 1rem;
     font-size: 5rem;
 }
@@ -133,28 +133,32 @@ h1{
     .sobre-nosotros-imagen{
         display: flex;
         flex-direction: column;
-        gap: 4rem;
+        gap: 1rem;
         justify-content: center;
     }
     
     .sobre-nosotros-p{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: 'Koulen', cursive;
         font-size: 2.5rem;
         color: #E7B269;
         justify-content: center;
+        font-weight: bolder;
     }
-
+    
     .desde-1960-p{
-        font-size: 5rem;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 4rem;
+        font-family: 'Koulen', cursive;
+        font-weight:bolder;
         font-size: 4rem;
         color: #33211D;
     }
-
-   .sobre-nosotros-h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2rem;
-    color: #33211D;
+    
+    .sobre-nosotros-h2{
+        font-family: 'Koulen', cursive;
+        font-weight: bolder;
+        font-size: 3rem;
+        width: 40%;
+        color: #33211D;
 }
     .cafe-img{
         width: 100%;
@@ -194,7 +198,7 @@ h1{
         padding: 1rem;
         color: #FFFBF2;
         font-size: 1rem;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: 'Koulen', cursive;
         margin-top: 1rem;
         width: 50%;
     }
@@ -222,7 +226,7 @@ h1{
     
     .granos-frescos-p{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 4rem;
+        font-size: 3.5rem;
         color: #33211D;
     }
     
