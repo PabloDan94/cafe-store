@@ -287,8 +287,9 @@ h1{
     .container-cupon{
         display: flex;
         background-image: url('/fondo-cupon.jpg');
-        background-size: cover;
+        background-size: 900px 900px;
         background-repeat: no-repeat;
+
     }
 
 
@@ -330,6 +331,7 @@ h1{
         width: 10rem;
         margin: 0;
         background-color: #E7B269;
+        margin-bottom: 20px;
     }
 
 
@@ -420,8 +422,7 @@ h1{
  
 .reservacion{
     background-image: url('/fondo-cupon.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 900px 900px;
     width: 100%;
 }     
 
@@ -603,8 +604,8 @@ select {
     display: flex;
     flex-direction: column;
     background-image: url("/fondo-cupon.jpg");
-    background-size: cover;
-background-repeat: no-repeat;
+    background-size: 900px 1050px;
+    background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
 }
