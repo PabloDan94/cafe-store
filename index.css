@@ -646,6 +646,7 @@ ion-icon{
 .links{
     display: flex;
     gap: 3rem;
+    margin-top: 1rem;
 }
 
 
