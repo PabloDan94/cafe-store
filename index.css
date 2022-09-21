@@ -57,7 +57,6 @@
 nav{
     display: flex;
     justify-content:left;
-    align-items: center;
     position:fixed;
     color: #ffff;
     width: 100%;
@@ -69,10 +68,10 @@ nav{
 
 ul{
     display: flex;
-    justify-content:end;
-    gap: 4rem;
+    justify-content:center;
+    gap: 2rem;
     font-family: 'Koulen', cursive;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .item-lista > a{
@@ -84,23 +83,24 @@ ul{
 
  .toggle{
     background-color: #E7B269;
-    height: 100%;
-    justify-content: center;
+    height: 100vh;
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
 
 .toggle-button{
-    position: fixed;
+    position: relative;
     width: 60px;
     height: 60px;
     color:#FFFBF2;
     font-size: 40px;
-    display: inline-block;
+    display: block;
     border: none;
     background-color: #33211D;
     margin-left: 1rem;
+    margin-top: 0.5rem;
 }
 
 ul{
