@@ -607,7 +607,7 @@ select {
     height: 1000px;
     flex-direction: column;
     background-image: url("/fondo-cupon.jpg");
-    background-size: 80rem 1000px;
+    background-size: 100rem 1000px;
     background-repeat:space;
     justify-content: center;
     align-items: center;
