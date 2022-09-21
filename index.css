@@ -191,6 +191,7 @@ h1{
 
     .historia{
         background-color: #E7B269;
+        
     }
 
     .aprende-mas{
@@ -201,6 +202,7 @@ h1{
         font-size: 1rem;
         font-family: 'Koulen', cursive;
         margin-top: 1rem;
+        font-weight: bolder;
         width: 50%;
     }
     
@@ -222,6 +224,8 @@ h1{
        font-size: 2rem;
        font-family: 'Koulen', cursive;
        color: #E7B269;
+       font-weight: bolder;
+
 
     }
     
@@ -229,6 +233,8 @@ h1{
         font-family: 'Koulen', cursive;
         font-size: 3rem;
         color: #33211D;
+        font-weight: bolder;
+
     }
     
     .servicios-cont{
@@ -281,8 +287,7 @@ h1{
     .container-cupon{
         display: flex;
         background-image: url('/fondo-cupon.jpg');
-        background-size:cover;
-        height: 500px;
+        background-size:100rem;
     }
 
 
@@ -340,12 +345,16 @@ h1{
         font-size: 2rem;
         font-family: 'Koulen', cursive;
         color: #E7B269;
+        font-weight: bolder;
+
     }
     
     .precios-competitivos-p{
         font-size: 3.5rem;
         font-family: 'Koulen', cursive;
         color: #33211D;
+        font-weight: bolder;
+
     
     }
         .tipos-de-cafe{
@@ -393,6 +402,8 @@ h1{
             color: #E7B269;
             text-align: center;
             margin-bottom: 2rem;
+        font-weight: bolder;
+
 
         }
 
@@ -408,7 +419,7 @@ h1{
  
 .reservacion{
     background-image: url('/fondo-cupon.jpg');
-    background-size: 50%;
+    background-size: 100rem;
     width: 100%;
 }     
 
@@ -520,6 +531,8 @@ select {
     font-size: 2rem;
     font-family: 'Koulen', cursive;
     color: #33211D;
+    font-weight: bolder;
+
 }
 
 .nuestrosclientes-p{
@@ -588,7 +601,7 @@ select {
     display: flex;
     flex-direction: column;
     background-image: url("/fondo-cupon.jpg");
-    background-size: cover;
+    background-size: 100rem;
     justify-content: center;
     align-items: center;
 }
