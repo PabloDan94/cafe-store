@@ -286,8 +286,7 @@ h1{
 
     .container-cupon{
         display: flex;
-        background-image: url('/fondo-cupon.jpg');
-        background-size: 200%;
+        background: #33211D;
         width: 100%;
         background-repeat: no-repeat;
 
@@ -422,10 +421,7 @@ h1{
      /* DESCUENTO 2  */
  
 .reservacion{
-    background-image: url('/fondo-cupon.jpg');
-    background-size: 355%;
-    background-repeat: no-repeat;
-    height: 850px;
+    background: #33211D;   
 }     
 
 .form-cont{
@@ -601,11 +597,10 @@ select {
 
 /* FOOTER */
 
-.footer-cont{    display: flex;
-    height: 1000px;
+.footer-cont{    
+    display: flex;
     flex-direction: column;
-    background-image: url("/fondo-cupon.jpg");
-    background-size: 400%;
+    background:#33211D;
     justify-content: center;
     align-items: center;
 }
