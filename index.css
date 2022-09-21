@@ -422,7 +422,7 @@ h1{
  
 .reservacion{
     background-image: url('/fondo-cupon.jpg');
-    background-size: 900px 900px;
+    background-size: 1000px 1100px;
     width: 100%;
 }     
 
@@ -604,7 +604,7 @@ select {
     display: flex;
     flex-direction: column;
     background-image: url("/fondo-cupon.jpg");
-    background-size: 900px 1050px;
+    background-size: 1000px 1050px;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
