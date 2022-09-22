@@ -285,7 +285,7 @@ h1{
 
     .container-cupon{
         display: flex;
-        background-image: url('/fondo-cupon.jpg');
+        background:#33211D;
         background-size: 200%;
         width: 100%;
         background-repeat: no-repeat;
