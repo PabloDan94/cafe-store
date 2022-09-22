@@ -635,6 +635,7 @@ select {
 ion-icon{
     font-size: 2.5rem;
     color: #FFFBF2;
+    margin: 0px 15px 0px 15px;
 
 }
 
@@ -648,7 +649,6 @@ ion-icon{
 
 .links{
     display: flex;
-    gap: 3rem;
     margin-top: 1rem;
 }
 
