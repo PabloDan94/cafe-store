@@ -542,8 +542,9 @@ select {
 
 .nuestrosclientes-p{
     font-family: 'Koulen', cursive;
-    font-size: 4rem;
+    font-size: 3.9rem;
     color: #E7B269;
+    font-weight: bolder;
     
 }
 
@@ -574,7 +575,8 @@ select {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:2rem;    
+    gap:1rem;
+    margin-bottom: 2.5rem;    
 }
 
 
@@ -602,7 +604,7 @@ select {
 /* FOOTER */
 
 .footer-cont{    display: flex;
-    height: 1000px;
+    height: 900px;
     flex-direction: column;
     background:#33211D;
     justify-content: center;
@@ -614,6 +616,7 @@ select {
     font-family: 'Koulen', cursive;
     font-size: 3rem;
     color: #E7B269;
+    font-weight: bolder;
 }
 
 .donde-encontrarnos > div {
@@ -645,7 +648,7 @@ ion-icon{
 
 .links{
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     margin-top: 1rem;
 }
 
