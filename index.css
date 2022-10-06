@@ -426,7 +426,7 @@ h1{
  
 .reservacion{
     background-image: url('./desc-mobile-cafe.jpg');
-    background-size: 150% 100%;    
+    background-size: 160% 100%;    
     background-repeat: no-repeat;
     height: 800px;
 }     
@@ -614,7 +614,7 @@ select {
     flex-direction: column;
     background-image: url('./desc-mobile-cafe.jpg');
     background-repeat: no-repeat;
-    background-size:150% 100%;    
+    background-size:200% 100%;    
     justify-content: center;
     align-items: center;
 }
