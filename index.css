@@ -289,8 +289,8 @@ h1{
 
     .container-cupon{
         display: flex;
-        background-image: url('./granos-desc.jpg');
-        background-size: 200% 100%;
+        background-image: url('./desc-mobile-cafe.jpg');
+        background-size:100%;
         width: 100%;
         background-repeat: no-repeat;
 
@@ -425,8 +425,8 @@ h1{
      /* DESCUENTO 2  */
  
 .reservacion{
-    background-image: url('./granos-desc.jpg');
-    background-size: 250% 100%;    
+    background-image: url('./desc-mobile-cafe.jpg');
+    background-size: 150% 100%;    
     background-repeat: no-repeat;
     height: 800px;
 }     
@@ -612,9 +612,10 @@ select {
 .footer-cont{    display: flex;
     height: 900px;
     flex-direction: column;
-    background-image: url('./granos-desc.jpg');
+    background-image: url('./desc-mobile-cafe.jpg');
     background-repeat: no-repeat;
-    background-size: 300% 100%;    justify-content: center;
+    background-size:150% 100%;    
+    justify-content: center;
     align-items: center;
 }
 
