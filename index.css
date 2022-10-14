@@ -1,711 +1,730 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: auto;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: auto;
+  list-style: none;
 }
 
-
-section[id]{
-    scroll-margin-top: 70px;
+section[id] {
+  scroll-margin-top: 70px;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-
 
 /* CELULARES  */
 
-   
-    body{
-    display: flex;
-    background: #FFFBF2;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+body {
+  display: flex;
+  background: #fffbf2;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-
 
 /* HEADER */
 
-
-
-.header{
-    height: 100vh;
-    display: flex;
-    background-image: url('/header-fondo.jpg');
-    justify-content: center;
-    background-position: -15rem;
-    background-size: 90rem;
-
+.header {
+  height: 100vh;
+  display: flex;
+  background-image: url("/header-fondo.jpg");
+  justify-content: center;
+  background-position: -15rem;
+  background-size: 90rem;
 }
 
-
-.cont-waves-header{
-    width: 100%;    
-
+.cont-waves-header {
+  width: 100%;
 }
 
 .cont-waves-header img {
-    position: relative;
-    width: 100%;
-    height: 30px;
-
+  position: relative;
+  width: 100%;
+  height: 30px;
 }
-
-
-
 
 /* NAV */
 
-.toggle-button{
-    display: none;   
-   }
-
-nav{
-    display: flex;
-    justify-content:left;
-    position:fixed;
-    color: #ffff;
-    width: 100%;
-    background-color: #E7B269;
-    z-index: 2;
-    height: 5rem;
-    display: flex;
+.toggle-button {
+  display: none;
 }
 
-ul{
-    display: flex;
-    gap: 3rem;
-    font-family: 'Koulen', cursive;
-    font-size: 2rem;
+nav {
+  display: flex;
+  justify-content: left;
+  position: fixed;
+  color: #ffff;
+  width: 100%;
+  background-color: #e7b269;
+  z-index: 2;
+  height: 5rem;
+  display: flex;
 }
 
-.item-lista > a{
-    color: white;
-    text-decoration: none;
+ul {
+  display: flex;
+  gap: 3rem;
+  font-family: "Koulen", cursive;
+  font-size: 2rem;
 }
 
-
-
- .toggle{
-    background-color: #E7B269;
-    height: 100%;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+.item-lista > a {
+  color: white;
+  text-decoration: none;
 }
 
-
-.toggle-button{
-    position: fixed;
-    top: 1.5%;
-    width: 60px;
-    height: 60px;
-    color:#FFFBF2;
-    font-size: 40px;
-    display: inline-block;
-    border: none;
-    background-color: #33211D;
-    margin-left: 1rem;
+.toggle {
+  background-color: #e7b269;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
-ul{
-    display: flex;
-    flex-direction: column;
+.toggle-button {
+  position: fixed;
+  top: 1.5%;
+  width: 60px;
+  height: 60px;
+  color: #fffbf2;
+  font-size: 40px;
+  display: inline-block;
+  border: none;
+  background-color: #33211d;
+  margin-left: 1rem;
 }
 
-.none{
-    display: none;
+ul {
+  display: flex;
+  flex-direction: column;
 }
 
+.none {
+  display: none;
+}
 
-h1{
-    text-align: center;
-    margin-top: 25%;
-    color: white;
-    font-family: 'Koulen', cursive;
-    letter-spacing: 1rem;
-    font-size: 5rem;
+h1 {
+  text-align: center;
+  margin-top: 25%;
+  color: white;
+  font-family: "Koulen", cursive;
+  letter-spacing: 1rem;
+  font-size: 5rem;
 }
 /* SOBRE NOSOTROS */
 
-.sobre-nosotros-container{
-        width: 100%;
-        background: #FFFBF2;
-        margin-top: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-    }
-    
-    .sobre-nosotros-imagen{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .sobre-nosotros-p{
-        font-family: 'Koulen', cursive;
-        font-size: 2.5rem;
-        color: #E7B269;
-        justify-content: center;
-        font-weight: bolder;
-    }
-    
-    .desde-1960-p{
-        font-size: 3rem;
-        font-family: 'Koulen', cursive;
-        font-weight:bolder;
-        font-size: 4rem;
-        color: #33211D;
-    }
-    
-    .sobre-nosotros-h2{
-        font-family: 'Koulen', cursive;
-        font-weight: bolder;
-        font-size: 3rem;
-        width: 40%;
-        color: #33211D;
-}
-    .cafe-img{
-        width: 100%;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-    }
-
-    .container-parrafo1{
-        margin-top: 1rem;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1.5rem;
-    }
-
-
-    .container-parrafo2{
-        margin-top: 4rem;
-        width: 100%;
-        display: flex;
-        gap: 1.5rem;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .parrafo1,.parrafo2{
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        width: 80%;
-    }
-
-    .historia{
-        background-color: #E7B269;
-        
-    }
-
-    .aprende-mas{
-        border: none;
-        background-color: #E7B269;
-        padding: 1rem;
-        color: #FFFBF2;
-        font-size: 1rem;
-        font-family: 'Koulen', cursive;
-        margin-top: 1rem;
-        font-weight: bolder;
-        width: 50%;
-    }
-    
-
-
-    /* NUESTROS PRODUCTOS */
-
-    .nuestros-servicios-container{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    
-    
-    .nuestros-productos-p{
-       font-size: 2rem;
-       font-family: 'Koulen', cursive;
-       color: #E7B269;
-       font-weight: bolder;
-
-
-    }
-    
-    .granos-frescos-p{
-        font-family: 'Koulen', cursive;
-        font-size: 3rem;
-        color: #33211D;
-        font-weight: bolder;
-
-    }
-    
-    .servicios-cont{
-        margin-top: 4rem;
-        display: flex;
-        flex-direction: column;
-}
-    
-    .container-servicios{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 4rem;
-
-    }
-    
-    .servicio{
-        
-        height: 200px;
-        width: 300px;
-    }
-    
-    .granos{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .span-servicios{
-        width: 200px;
-        margin: 20px;
-        font-family: 'Koulen', cursive;
-        color: #33211D;
-        font-size: 1.3rem;
-    }
-    
-    .span-p{
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        margin-top: 4px;
-        font-size: 1rem;
-
-    }
-    
- 
-
-    /* DESCUENTO */
-
-
-    .container-cupon{
-        display: flex;
-        background-image: url('./desc-mobile-cafe.jpg');
-        background-size:100%;
-        width: 100%;
-        background-repeat: no-repeat;
-
-    }
-
-
-
-    .descuento-p{
-        gap: 0.5rem;
-        color: #FFFBF2;
-        font-family: 'Koulen', cursive;
-    }
-
-    .titulo-descuento{
-        font-size: 3rem;
-        font-family: 'Koulen', cursive;
-        color: #E7B269;
-    }
-    
-    .titulo-descuento2{
-        font-size: 2.5rem;
-    }
-
-    .titulo-descuento3{
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
-    }
-
-    .email{
-
-        border: none;
-        height: 3rem;
-        text-align: center;
-        width: 20rem;
-        margin-bottom: 0.5rem;
-    }
-    
-
-    .email-button{
-        border: none;
-        height: 3rem;
-        width: 10rem;
-        margin: 0;
-        background-color: #E7B269;
-        margin-bottom: 20px;
-    }
-
-
-
-    /* MENU */
-
-    .menu-container{
-        display: flex;
-        flex-direction: column;
-        margin-top: 4rem;
-        gap: 0rem;
-    }
-    .menu-precios-p{
-        font-size: 2rem;
-        font-family: 'Koulen', cursive;
-        color: #E7B269;
-        font-weight: bolder;
-
-    }
-    
-    .precios-competitivos-p{
-        font-size: 3.5rem;
-        font-family: 'Koulen', cursive;
-        color: #33211D;
-        font-weight: bolder;
-
-    
-    }
-        .tipos-de-cafe{
-            display: flex;
-            flex-direction: column;
-        }
-
-        .cafe-cal{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 5px;
-            color: #33211D;
-            font-size: 1rem;
-            margin-bottom: 3rem;
-        }
-
-        .tipos-de-cafe{
-            display: flex;
-        }
-
-        .cafe-cal span {
-            font-size: 2rem;
-        }
-
-        .cafe-cal span p{
-            font-size: 1.3rem;
-            color: #33211D;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-        }
-        
-        .img-cafe{
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 100%;
-        }
-        
-        .cafe-caliente-cont{
-            font-family: 'Koulen', cursive;
-            font-size: 3rem;
-        }
-        
-        .cafe-caliente-frio{
-            color: #E7B269;
-            text-align: center;
-            margin-bottom: 2rem;
-        font-weight: bolder;
-
-
-        }
-
-        
-        
-        .cont-imagen-cafe{
-            margin: 1rem;
-            height: 100px;
-            width: 100px;
-        }
-        
-     /* DESCUENTO 2  */
- 
-.reservacion{
-    background-image: url('./desc-mobile-cafe.jpg');
-    background-size: 160% 100%;    
-    background-repeat: no-repeat;
-    height: 800px;
-}     
-
-.form-cont{
-    width: 100%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-
+.sobre-nosotros-container {
+  width: 100%;
+  background: #fffbf2;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
-.reservacion-cont{
-
-    text-align: center;
-    display: flex;
-    gap: 4px;
-    flex-direction: column;
-    
+.sobre-nosotros-imagen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.form{
+.sobre-nosotros-p {
+  font-family: "Koulen", cursive;
+  font-size: 2.5rem;
+  color: #e7b269;
+  justify-content: center;
+  font-weight: bolder;
+}
 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin:1rem;
-    justify-content: center;
+.desde-1960-p {
+  font-size: 3rem;
+  font-family: "Koulen", cursive;
+  font-weight: bolder;
+  font-size: 4rem;
+  color: #33211d;
+}
 
+.sobre-nosotros-h2 {
+  font-family: "Koulen", cursive;
+  font-weight: bolder;
+  font-size: 3rem;
+  width: 40%;
+  color: #33211d;
+}
+.cafe-img {
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.container-parrafo1 {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.container-parrafo2 {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrafo1,
+.parrafo2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 80%;
+}
+
+.historia {
+  background-color: #e7b269;
+}
+
+.aprende-mas {
+  border: none;
+  background-color: #e7b269;
+  padding: 1rem;
+  color: #fffbf2;
+  font-size: 1rem;
+  font-family: "Koulen", cursive;
+  margin-top: 1rem;
+  font-weight: bolder;
+  width: 50%;
+}
+
+/* NUESTROS PRODUCTOS */
+
+.nuestros-servicios-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nuestros-productos-p {
+  font-size: 2rem;
+  font-family: "Koulen", cursive;
+  color: #e7b269;
+  font-weight: bolder;
+}
+
+.granos-frescos-p {
+  font-family: "Koulen", cursive;
+  font-size: 3rem;
+  color: #33211d;
+  font-weight: bolder;
+}
+
+.servicios-cont {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.servicio {
+  height: 200px;
+  width: 300px;
+}
+
+.granos {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.span-servicios {
+  width: 200px;
+  margin: 20px;
+  font-family: "Koulen", cursive;
+  color: #33211d;
+  font-size: 1.3rem;
+}
+
+.span-p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 4px;
+  font-size: 1rem;
+}
+
+/* DESCUENTO */
+
+.container-cupon {
+  display: flex;
+  background-image: url("./desc-mobile-cafe.jpg");
+  background-size: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.descuento-p {
+  gap: 0.5rem;
+  color: #fffbf2;
+  font-family: "Koulen", cursive;
+}
+
+.titulo-descuento {
+  font-size: 3rem;
+  font-family: "Koulen", cursive;
+  color: #e7b269;
+}
+
+.titulo-descuento2 {
+  font-size: 2.5rem;
+}
+
+.titulo-descuento3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.email {
+  border: none;
+  height: 3rem;
+  text-align: center;
+  width: 20rem;
+  margin-bottom: 0.5rem;
+}
+
+.email-button {
+  border: none;
+  height: 3rem;
+  width: 10rem;
+  margin: 0;
+  background-color: #e7b269;
+  margin-bottom: 20px;
+}
+
+/* MENU */
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  gap: 0rem;
+}
+.menu-precios-p {
+  font-size: 2rem;
+  font-family: "Koulen", cursive;
+  color: #e7b269;
+  font-weight: bolder;
+}
+
+.precios-competitivos-p {
+  font-size: 3.5rem;
+  font-family: "Koulen", cursive;
+  color: #33211d;
+  font-weight: bolder;
+}
+.tipos-de-cafe {
+  display: flex;
+  flex-direction: column;
+}
+
+.cafe-cal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: #33211d;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.tipos-de-cafe {
+  display: flex;
+}
+
+.cafe-cal span {
+  font-size: 2rem;
+}
+
+.cafe-cal span p {
+  font-size: 1.3rem;
+  color: #33211d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-cafe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.cafe-caliente-cont {
+  font-family: "Koulen", cursive;
+  font-size: 3rem;
+}
+
+.cafe-caliente-frio {
+  color: #e7b269;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bolder;
+}
+
+.cont-imagen-cafe {
+  margin: 1rem;
+  height: 100px;
+  width: 100px;
+}
+
+/* DESCUENTO 2  */
+
+.reservacion {
+  background-image: url("./desc-mobile-cafe.jpg");
+  background-size: 160% 100%;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.form-cont {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.reservacion-cont {
+  text-align: center;
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+  justify-content: center;
 }
 
 .form > p {
-    font-family: 'Koulen', cursive;
-    color: #FFFBF2;
-    font-size: 2rem;
-
+  font-family: "Koulen", cursive;
+  color: #fffbf2;
+  font-size: 2rem;
 }
 
 .form > input {
-    border:2px solid #E7B269;
-    padding: 10px;
-    margin: auto;
-    margin-bottom: 5px;
-    width: 85%;
-    text-align: center;
+  border: 2px solid #e7b269;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 5px;
+  width: 85%;
+  text-align: center;
 }
 
 select {
-    padding: 10px;
-    border:2px solid #E7B269;
-    margin: auto;
-    width: 85%;
-    text-align: center;
+  padding: 10px;
+  border: 2px solid #e7b269;
+  margin: auto;
+  width: 85%;
+  text-align: center;
 }
 
 .form > button {
-    border: none;
-    background-color: #E7B269;
-    width: 50%;
-    padding: 10px;
-    margin: auto;
-    margin-top: 5px;
-    font-family: 'Koulen', cursive;
-    font-size: 1.2rem;
-    color: #33211D;
-
+  border: none;
+  background-color: #e7b269;
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+  margin-top: 5px;
+  font-family: "Koulen", cursive;
+  font-size: 1.2rem;
+  color: #33211d;
 }
 
-.reservacion-cont > p:nth-child(1){
-    font-family: 'Koulen', cursive;
-    color: #FFFBF2;
-    font-size: 4rem;
-    margin-top: 10px;
+.reservacion-cont > p:nth-child(1) {
+  font-family: "Koulen", cursive;
+  color: #fffbf2;
+  font-size: 4rem;
+  margin-top: 10px;
 }
 
-.reservacion-cont > p:nth-child(2){
-    font-family: 'Koulen', cursive;
-    color: #E7B269;
-    font-size: 2rem;
+.reservacion-cont > p:nth-child(2) {
+  font-family: "Koulen", cursive;
+  color: #e7b269;
+  font-size: 2rem;
 }
 
-.reservacion-cont > p:nth-child(3){
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #FFFBF2;
-    font-size: 1rem;
-
+.reservacion-cont > p:nth-child(3) {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fffbf2;
+  font-size: 1rem;
 }
 
-.reservacion-cont > p:nth-child(4), .reservacion-cont > p:nth-child(5) , .reservacion-cont > p:nth-child(6){
-    color: #FFFBF2;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
-
+.reservacion-cont > p:nth-child(4),
+.reservacion-cont > p:nth-child(5),
+.reservacion-cont > p:nth-child(6) {
+  color: #fffbf2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
 }
 
-.tilde{
-    color: #E7B269;
-    font-size: 2rem;
-    font-weight: 900;
+.tilde {
+  color: #e7b269;
+  font-size: 2rem;
+  font-weight: 900;
 }
-
 
 /* TESTIMONIOS */
 
-
-.testimonios-cont{
-    width: 100%;
-    background-color: #FFFBF2;
-    margin-top: 4rem;
+.testimonios-cont {
+  width: 100%;
+  background-color: #fffbf2;
+  margin-top: 4rem;
 }
 
-.testimonios-p{
-    font-size: 2rem;
-    font-family: 'Koulen', cursive;
-    color: #33211D;
-    font-weight: bolder;
-
+.testimonios-p {
+  font-size: 2rem;
+  font-family: "Koulen", cursive;
+  color: #33211d;
+  font-weight: bolder;
 }
 
-.nuestrosclientes-p{
-    font-family: 'Koulen', cursive;
-    font-size: 3.9rem;
-    color: #E7B269;
-    font-weight: bolder;
-    
+.nuestrosclientes-p {
+  font-family: "Koulen", cursive;
+  font-size: 3.9rem;
+  color: #e7b269;
+  font-weight: bolder;
 }
 
-.clientes-cont{
-    padding-top: 3rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    
+.clientes-cont {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.img-cliente-cont{
-    height:100px;
-    width:100px;
+.img-cliente-cont {
+  height: 100px;
+  width: 100px;
 }
 
-.img-cliente{
-    border-radius: 50%;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.img-cliente {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-.cliente{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:1rem;
-    margin-bottom: 2.5rem;    
+.cliente {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
 }
 
-
-.descripcion-cliente{
-    color: #33211D;
-    font-family: 'Koulen', cursive;
-    padding: 10px;
+.descripcion-cliente {
+  color: #33211d;
+  font-family: "Koulen", cursive;
+  padding: 10px;
 }
 
-.descripcion-cliente > span:nth-child(1){
-    font-size: 1rem;
-    display: block;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    margin: 2px;
+.descripcion-cliente > span:nth-child(1) {
+  font-size: 1rem;
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  margin: 2px;
 }
 
-.descripcion-cliente > span:nth-child(2){
-    display: block;
-    font-size: 1rem;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    width: 100%;
+.descripcion-cliente > span:nth-child(2) {
+  display: block;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
 }
 
 /* FOOTER */
 
-.footer-cont{    display: flex;
-    height: 900px;
-    flex-direction: column;
-    background-image: url('./desc-mobile-cafe.jpg');
-    background-repeat: no-repeat;
-    background-size:200% 100%;    
-    justify-content: center;
-    align-items: center;
+.footer-cont {
+  display: flex;
+  height: 900px;
+  flex-direction: column;
+  background-image: url("./desc-mobile-cafe.jpg");
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.donde-encontrarnos > p:nth-child(1){
-    font-family: 'Koulen', cursive;
-    font-size: 3rem;
-    color: #E7B269;
-    font-weight: bolder;
+.donde-encontrarnos > p:nth-child(1) {
+  font-family: "Koulen", cursive;
+  font-size: 3rem;
+  color: #e7b269;
+  font-weight: bolder;
 }
 
 .donde-encontrarnos > div {
-    display: flex;
-    align-items: center;
-    margin: 1rem;
+  display: flex;
+  align-items: center;
+  margin: 1rem;
 }
 
 .visitanos-text {
-    font-size: 1rem;
-    color: #FFFBF2;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 900;
+  font-size: 1rem;
+  color: #fffbf2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
 }
 
-ion-icon{
-    font-size: 2.5rem;
-    color: #FFFBF2;
-    margin: 15px 15px 0px 15px;
-
+ion-icon {
+  font-size: 2.5rem;
+  color: #fffbf2;
+  margin: 15px 15px 0px 15px;
 }
 
-.redes{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.redes {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.links {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.redes > p:nth-child(1) {
+  color: #e7b269;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  font-family: "Koulen", cursive;
+}
+
+.horarios {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 4rem;
+}
+
+.horarios > p:nth-child(1) {
+  color: #e7b269;
+  font-size: 2.6rem;
+  font-family: "Koulen", cursive;
+}
+
+/* TABLET */
+
+@media only screen and (min-width: 600px) {
+
+  header > h1{
+    font-size: 7rem;
+  }
+
+  .reservacion {
+    background-image: url("./desc-mobile-cafe.jpg");
+    background-size: 100%;
+  }
+
+  .footer-cont {
+    background-image: url("./desc-mobile-cafe.jpg");
+    background-size: 100%;
+  }
+
+  .container-cupon {
+    justify-content: center;
+  }
+
+  .sobre-nosotros-imagen {
+    justify-content: center;
     align-items: center;
-    margin-top: 2rem;
-}
+  }
 
-.links{
-    display: flex;
-    margin-top: 1rem;
-}
+  .cafe-img {
+    height: 500px;
+    width: 500px;
+  }
 
+  /* FOOTER */
 
+  .footer-cont {
+    height: 1000px;
+  }
 
-.redes > p:nth-child(1){
-    color: #E7B269;
-    font-size: 2.5rem;
+  .donde-encontrarnos > p:nth-child(1) {
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    color: #e7b269;
     font-weight: bolder;
-    font-family: 'Koulen', cursive;
+  }
+
+  .redes > p:nth-child(1) {
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    color: #e7b269;
+    font-weight: bolder;
+  }
+
+  .visitanos-text {
+    color: #fffbf2;
+    font-size: 1.5rem;
+  }
+
+  .horarios > p:nth-child(1) {
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    color: #e7b269;
+    font-weight: bolder;
+  }
+
+  .reservacion-cont{
+    align-items: center;
+  }
+
+  .reservacion-cont > p:nth-child(3){
+    width: 80%;
+  }
+
+
 }
 
 
-.horarios{
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-bottom: 4rem;
-}
 
-.horarios > p:nth-child(1){
-    color: #E7B269;
-    font-size: 2.6rem;
-    font-family: 'Koulen', cursive;
-}
 
-@media only screen and (min-width: 768px) {
 
-.header{
+
+
+/* ESCRITORIO */
+
+@media only screen and (min-width: 1080px) {
+  .header {
     display: flex;
     justify-content: center;
     background-repeat: no-repeat;
     width: 100%;
     background-position: 0%;
-    background-size:cover;
-    
-}
+    background-size: cover;
+  }
 
-/* 
+  /* 
 .cont-waves-header img {
     position: relative;
     width: 100%;
@@ -713,297 +732,274 @@ ion-icon{
 
 } */
 
+  /* NAV */
 
-
-/* NAV */
-
-
-nav{
+  nav {
     display: flex;
-    justify-content:left;
-}
+    justify-content: left;
+  }
 
-ul{
+  ul {
     gap: 3rem;
-    font-family: 'Koulen', cursive;
-}
+    font-family: "Koulen", cursive;
+  }
 
-
-
-.toggle-button{
+  .toggle-button {
     display: none;
-}
+  }
 
- .toggle{
-    background-color: #E7B269;
+  .toggle {
+    background-color: #e7b269;
     height: 5rem;
     justify-content: center;
     display: flex;
     flex-direction: row;
-}
+  }
 
-#ul{
-    display:flex;
+  #ul {
+    display: flex;
     width: 100%;
     gap: 100px;
     margin-right: 100px;
-    justify-content: right ;
+    justify-content: right;
     align-items: center;
     flex-direction: row;
-}
+  }
 
-
-
-h1{
+  h1 {
     margin-top: 20%;
     font-size: 10rem;
     font-weight: bolder;
-}
+  }
 
-/* SOBRE NOSOTROS */
+  /* SOBRE NOSOTROS */
 
-.sobre-nosotros-container{
+  .sobre-nosotros-container {
     height: 100vh;
     margin: 0;
     padding: 0;
+  }
 
-}
-
-.sobre-nosotros-imagen{
+  .sobre-nosotros-imagen {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+  }
 
-.sobre-nosotros-p{
+  .sobre-nosotros-p {
     font-size: 3rem;
-    color: #E7B269;
-}
+    color: #e7b269;
+  }
 
-.desde-1960-p{
+  .desde-1960-p {
     font-size: 6rem;
     margin: 0;
-}
+  }
 
-.sobre-nosotros-h2{
+  .sobre-nosotros-h2 {
     font-size: 3rem;
     width: 50%;
-}
-.cafe-img{
+  }
+  .cafe-img {
     width: auto;
     margin: auto;
     height: 600px;
-}
+  }
 
-.container-parrafo1{
+  .container-parrafo1 {
     gap: 0.5rem;
-}
+  }
 
-
-.container-parrafo2{
+  .container-parrafo2 {
     gap: 0.5rem;
-}
+  }
 
-.parrafo1,.parrafo2{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  .parrafo1,
+  .parrafo2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 80%;
     font-size: 1rem;
-}
+  }
 
-.aprende-mas{
+  .aprende-mas {
     font-size: 1.5rem;
     letter-spacing: 2px;
-}
+  }
 
-/* NUESTROS PRODUCTOS */
+  /* NUESTROS PRODUCTOS */
 
-.nuestros-servicios-container{
+  .nuestros-servicios-container {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
+  .nuestros-productos-p {
+    font-size: 3rem;
+    font-weight: bolder;
+  }
 
-
-.nuestros-productos-p{
-   font-size: 3rem;
-   font-weight: bolder;
-}
-
-.granos-frescos-p{
+  .granos-frescos-p {
     font-size: 6rem;
     font-weight: bolder;
+  }
 
-}
-
-.container-servicios{
+  .container-servicios {
     display: flex;
     gap: 2rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
 
-}
-
-
-.span-servicios{
+  .span-servicios {
     width: 20%;
-    font-family: 'Koulen', cursive;
-    color: #33211D;
+    font-family: "Koulen", cursive;
+    color: #33211d;
     font-size: 1.5rem;
     font-weight: bold;
-}
+  }
 
-.span-p{
+  .span-p {
     font-size: 1rem;
     margin: 0;
     font-weight: normal;
+  }
 
-}
+  /* DESCUENTO */
 
-
-/* DESCUENTO */
-
-
-.container-cupon{
+  .container-cupon {
     margin: 25vh 0px 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh;
-    background-image: url('./granos-desc.jpg');
-    background-size:100%;
+    background-image: url("./granos-desc.jpg");
+    background-size: 100%;
     background-repeat: no-repeat;
 
     width: 100%;
-}
+  }
 
+  .descuento-p {
+    color: #fffbf2;
+    font-family: "Koulen", cursive;
+  }
 
-
-.descuento-p{
-    color: #FFFBF2;
-    font-family: 'Koulen', cursive;
-}
-
-.titulo-descuento{
+  .titulo-descuento {
     font-size: 8rem;
     font-weight: bolder;
     letter-spacing: 2px;
     margin: 0;
-}
+  }
 
-.titulo-descuento2{
+  .titulo-descuento2 {
     font-size: 3rem;
     font-weight: bolder;
     letter-spacing: 2px;
-}
+  }
 
-.titulo-descuento3{
+  .titulo-descuento3 {
     font-size: 2rem;
     font-weight: bolder;
     letter-spacing: 2px;
     margin-bottom: 0;
-}
+  }
 
-.email{
-
+  .email {
     border: none;
     height: 3rem;
     text-align: center;
     width: 20rem;
     margin-bottom: 2rem;
-}
+  }
 
-
-.email-button{
+  .email-button {
     border: none;
     margin: 0;
-    background-color: #E7B269;
+    background-color: #e7b269;
     margin-bottom: 20px;
     font-weight: bolder;
     font-size: 1rem;
-}
+  }
 
-/* MENU */
+  /* MENU */
 
-.menu-container{
+  .menu-container {
     display: flex;
     flex-direction: column;
     margin-top: 0px;
     gap: 0rem;
-}
-.menu-precios-p{
+  }
+  .menu-precios-p {
     font-size: 3rem;
     font-weight: bolder;
-}
+  }
 
-.precios-competitivos-p{
+  .precios-competitivos-p {
     font-size: 6rem;
     font-weight: bolder;
-}
+  }
 
-.tipos-de-cafe{
+  .tipos-de-cafe {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.cafe-cal{
+  .cafe-cal {
     flex-direction: row;
     align-items: center;
     text-align: center;
     gap: 0px;
     font-size: 1rem;
     margin-bottom: 0rem;
-}
+  }
 
-.tipos-de-cafe{
-        display: flex;
-        gap: 100px;
-    }
+  .tipos-de-cafe {
+    display: flex;
+    gap: 100px;
+  }
 
-    .cafe-cal span {
-        font-size: 1.8rem;
-    }
+  .cafe-cal span {
+    font-size: 1.8rem;
+  }
 
-    .cafe-cal span p{
-        font-size: 1rem;
-    }
-    
-    .img-cafe{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 100%;
-    }
-    
-    .cafe-caliente-cont{
-        font-size: 3rem;
-    }
-    
-    .cafe-caliente-frio{
-        text-align: center;
-        margin-bottom: 0rem;
-        font-weight: bolder;
+  .cafe-cal span p {
+    font-size: 1rem;
+  }
 
+  .img-cafe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+  }
 
-    }
+  .cafe-caliente-cont {
+    font-size: 3rem;
+  }
 
+  .cafe-caliente-frio {
+    text-align: center;
+    margin-bottom: 0rem;
+    font-weight: bolder;
+  }
 
-    .cont-imagen-cafe{
-        margin-right: 2rem;
-        height: 150px;
-        width: 150px;
-    }
+  .cont-imagen-cafe {
+    margin-right: 2rem;
+    height: 150px;
+    width: 150px;
+  }
 
-/* DESCUENTO 2  */
- 
-.reservacion{
-    background:url('./granos-desc.jpg');
+  /* DESCUENTO 2  */
+
+  .reservacion {
+    background: url("./granos-desc.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 70vh;
@@ -1011,139 +1007,129 @@ h1{
     flex-direction: row;
     margin-top: 15vh;
     margin-bottom: 15vh;
-}     
+  }
 
-.form-cont{
+  .form-cont {
     width: 100%;
-}
+  }
 
-.reservacion-cont{
+  .reservacion-cont {
     width: 50%;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-}
+  }
 
-.form{
-
+  .form {
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 50%;
     margin: 0;
     justify-content: center;
+  }
 
-}
-
-.form > p {
+  .form > p {
     font-size: 6rem;
     font-weight: bolder;
     letter-spacing: 1px;
+  }
 
-}
-
-.form > input {
-    border:10px solid #E7B269;
+  .form > input {
+    border: 10px solid #e7b269;
     padding: 10px;
     margin: auto;
     width: 85%;
-}
+  }
 
-select {
+  select {
     padding: 10px;
-    border:10px solid #E7B269;
+    border: 10px solid #e7b269;
     margin: auto;
     width: 89%;
     text-align: center;
-}
+  }
 
-.form > button {
+  .form > button {
     margin: auto;
     margin-bottom: 40px;
     font-size: 1.5rem;
-    color: #33211D;
+    color: #33211d;
     cursor: pointer;
+  }
 
-}
-
-.reservacion-cont > p:nth-child(1){
-    font-family: 'Koulen', cursive;
-    color: #FFFBF2;
+  .reservacion-cont > p:nth-child(1) {
+    font-family: "Koulen", cursive;
+    color: #fffbf2;
     font-size: 9rem;
     margin-top: -60px;
     margin-bottom: -70px;
+  }
 
-}
-
-.reservacion-cont > p:nth-child(2){
-    font-family: 'Koulen', cursive;
-    color: #E7B269;
+  .reservacion-cont > p:nth-child(2) {
+    font-family: "Koulen", cursive;
+    color: #e7b269;
     font-size: 4rem;
     margin: 0;
     font-weight: bolder;
     letter-spacing: 1px;
-  
-}
+  }
 
-.reservacion-cont > p:nth-child(3){
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #FFFBF2;
+  .reservacion-cont > p:nth-child(3) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fffbf2;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     width: 70%;
-}
+  }
 
-.reservacion-cont > p:nth-child(4), .reservacion-cont > p:nth-child(5) , .reservacion-cont > p:nth-child(6){
-    color: #FFFBF2;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  .reservacion-cont > p:nth-child(4),
+  .reservacion-cont > p:nth-child(5),
+  .reservacion-cont > p:nth-child(6) {
+    color: #fffbf2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     margin: 10px;
+  }
 
-}
-
-.tilde{
-    background-color: #E7B269;
+  .tilde {
+    background-color: #e7b269;
     border-radius: 100%;
-    border: 8px solid #E7B269;
-    color:#33211D;
+    border: 8px solid #e7b269;
+    color: #33211d;
     font-size: 1.7rem;
     margin-right: 1rem;
     font-weight: bolder;
-}
+  }
 
+  /* TESTIMONIOS */
 
-/* TESTIMONIOS */
-
-
-.testimonios-cont{
+  .testimonios-cont {
     width: 100%;
-    background-color: #FFFBF2;
+    background-color: #fffbf2;
     height: 70vh;
     margin-top: 15vh;
     margin-bottom: 15vh;
-}
+  }
 
-.testimonios-p{
+  .testimonios-p {
     font-size: 3rem;
-    font-family: 'Koulen', cursive;
-    color: #33211D;
+    font-family: "Koulen", cursive;
+    color: #33211d;
     font-weight: bolder;
     letter-spacing: 1px;
+  }
 
-
-}
-
-.nuestrosclientes-p{
-    font-family: 'Koulen', cursive;
+  .nuestrosclientes-p {
+    font-family: "Koulen", cursive;
     font-size: 6rem;
     letter-spacing: 1px;
-    color: #E7B269;
+    color: #e7b269;
     font-weight: bolder;
-    
-}
+  }
 
-.clientes-cont{
+  .clientes-cont {
     margin-top: 4rem;
     display: flex;
     flex-direction: row;
@@ -1151,100 +1137,97 @@ select {
     justify-content: center;
     align-items: center;
     margin-top: -100;
-}
+  }
 
-.img-cliente-cont{
-    height:200px;
-    width:200px;
-}
+  .img-cliente-cont {
+    height: 200px;
+    width: 200px;
+  }
 
-.img-cliente{
+  .img-cliente {
     border-radius: 50%;
     height: 100%;
     width: 100%;
     object-fit: cover;
-}
+  }
 
-.cliente{
+  .cliente {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:1rem;
+    gap: 1rem;
     margin-bottom: 0;
-}
+  }
 
-
-.descripcion-cliente{
-    color: #33211D;
-    font-family: 'Koulen', cursive;
+  .descripcion-cliente {
+    color: #33211d;
+    font-family: "Koulen", cursive;
     padding: 0;
     margin: 0;
     width: 80%;
     font-size: 2rem;
     font-weight: bolder;
-}
+  }
 
-.descripcion-cliente > span:nth-child(1){
+  .descripcion-cliente > span:nth-child(1) {
     font-size: 1.3rem;
     display: block;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     margin: 0;
-    font-weight:normal;
-}
+    font-weight: normal;
+  }
 
-.descripcion-cliente > span:nth-child(2){
+  .descripcion-cliente > span:nth-child(2) {
     display: block;
     font-size: 1rem;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
-    font-weight:normal;
+    font-weight: normal;
+  }
 
-}
+  /* FOOTER */
 
-/* FOOTER */
-
-.footer-cont{    display: flex;
+  .footer-cont {
+    display: flex;
     height: 50vh;
     flex-direction: row;
-    background-image: url('./granos-desc.jpg');
+    background-image: url("./granos-desc.jpg");
     background-size: 100%;
     justify-content: space-around;
-    align-items:calc(50%);
+    align-items: calc(50%);
     margin-top: 25vh;
-}
+  }
 
-
-.donde-encontrarnos > p:nth-child(1){
-    font-family: 'Koulen', cursive;
+  .donde-encontrarnos > p:nth-child(1) {
+    font-family: "Koulen", cursive;
     font-size: 4rem;
     letter-spacing: 1px;
-    color: #E7B269;
+    color: #e7b269;
     font-weight: bolder;
-}
+  }
 
-.donde-encontrarnos > div {
+  .donde-encontrarnos > div {
     display: flex;
     align-items: center;
     margin: 1rem;
-}
+  }
 
-.visitanos-text {
+  .visitanos-text {
     font-size: 1rem;
-    color: #FFFBF2;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fffbf2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
-}
+  }
 
-ion-icon{
+  ion-icon {
     font-size: 2.5rem;
-    color: #FFFBF2;
-    margin: 15px 15px 0px 15px;
-    
-}
+    color: #fffbf2;
+    font-weight: bolder;
+  }
 
-.redes{
+  .redes {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -1252,37 +1235,33 @@ ion-icon{
     margin-top: 0rem;
     width: 30%;
     line-height: 30px;
-}
+  }
 
-.links{
+  .links {
     display: flex;
     margin-top: 1rem;
-}
+  }
 
-
-
-.redes > p:nth-child(1){
-    color: #E7B269;
-    font-size:4rem;
+  .redes > p:nth-child(1) {
+    color: #e7b269;
+    font-size: 4rem;
     letter-spacing: 1px;
     font-weight: bolder;
-    font-family: 'Koulen', cursive;
-}
+    font-family: "Koulen", cursive;
+  }
 
-
-.horarios{
+  .horarios {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 40px;
     margin-bottom: 4rem;
-}
+  }
 
-.horarios > p:nth-child(1){
-    color: #E7B269;
+  .horarios > p:nth-child(1) {
+    color: #e7b269;
     font-size: 4rem;
     letter-spacing: 1px;
-    font-family: 'Koulen', cursive;
-}
-
+    font-family: "Koulen", cursive;
+  }
 }
