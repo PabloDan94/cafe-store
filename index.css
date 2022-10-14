@@ -6,6 +6,15 @@
 }
 
 
+section[id]{
+    scroll-margin-top: 70px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
 /* CELULARES  */
 
    
@@ -346,7 +355,7 @@ h1{
         display: flex;
         flex-direction: column;
         margin-top: 4rem;
-        gap: 2rem;
+        gap: 0rem;
     }
     .menu-precios-p{
         font-size: 2rem;
@@ -924,7 +933,7 @@ h1{
     display: flex;
     flex-direction: column;
     margin-top: 0px;
-    gap: 2rem;
+    gap: 0rem;
 }
 .menu-precios-p{
     font-size: 3rem;
@@ -1209,7 +1218,8 @@ select {
 
 .donde-encontrarnos > p:nth-child(1){
     font-family: 'Koulen', cursive;
-    font-size: 3rem;
+    font-size: 4rem;
+    letter-spacing: 1px;
     color: #E7B269;
     font-weight: bolder;
 }
@@ -1253,7 +1263,8 @@ ion-icon{
 
 .redes > p:nth-child(1){
     color: #E7B269;
-    font-size: 2.5rem;
+    font-size:4rem;
+    letter-spacing: 1px;
     font-weight: bolder;
     font-family: 'Koulen', cursive;
 }
@@ -1269,7 +1280,8 @@ ion-icon{
 
 .horarios > p:nth-child(1){
     color: #E7B269;
-    font-size: 2.6rem;
+    font-size: 4rem;
+    letter-spacing: 1px;
     font-family: 'Koulen', cursive;
 }
 
