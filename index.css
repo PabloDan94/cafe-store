@@ -309,6 +309,7 @@ h1 {
   margin: 0;
   background-color: #e7b269;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 /* MENU */
@@ -829,6 +830,7 @@ a:hover{
   .aprende-mas {
     font-size: 1.5rem;
     letter-spacing: 2px;
+    cursor: pointer;
   }
 
   /* NUESTROS PRODUCTOS */
@@ -1042,7 +1044,7 @@ a:hover{
   }
 
   .form > input {
-    border: 10px solid #e7b269;
+    border: 5px solid #e7b269;
     padding: 10px;
     margin: auto;
     width: 85%;
@@ -1050,7 +1052,7 @@ a:hover{
 
   select {
     padding: 10px;
-    border: 10px solid #e7b269;
+    border: 5px solid #e7b269;
     margin: auto;
     width: 89%;
     text-align: center;
