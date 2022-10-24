@@ -732,17 +732,22 @@ ion-icon {
 
 } */
 
-  /* NAV */
+/* NAV */
 
-  nav {
-    display: flex;
-    justify-content: left;
-  }
+nav {
+  display: flex;
+  justify-content: left;
+}
 
-  ul {
-    gap: 3rem;
-    font-family: "Koulen", cursive;
-  }
+ul {
+  gap: 3rem;
+  font-family: "Koulen", cursive;
+}
+
+
+a:hover{
+  text-decoration:underline 5px;
+  } 
 
   .toggle-button {
     display: none;
