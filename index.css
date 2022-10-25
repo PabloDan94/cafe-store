@@ -715,7 +715,7 @@ ion-icon {
 
 /* ESCRITORIO */
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1150px) {
   .header {
     display: flex;
     justify-content: center;
@@ -1086,7 +1086,7 @@ a:hover{
   .reservacion-cont > p:nth-child(3) {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fffbf2;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
     width: 70%;
   }
@@ -1096,16 +1096,15 @@ a:hover{
   .reservacion-cont > p:nth-child(6) {
     color: #fffbf2;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5rem;
-    margin: 10px;
+    font-size: 1rem;
+    margin: 5px;
   }
 
   .tilde {
     background-color: #e7b269;
-    border-radius: 50% 50%;
-    padding: 7px;
+    border-radius: 100% 50%;
+    padding: 2px;
     color: #33211d;
-    font-size: 1.7rem;
     margin-right: 1rem;
     font-weight: bolder;
   }
